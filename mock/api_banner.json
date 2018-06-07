@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "msg": "成功",
+  "data": {
+    "banner_list": [
+      {
+        "bannerUrl": "http://www.mall.com/uploads/images/banner/iphoneX.jpg",
+        "goodsId": 2,
+        "jumpUrl": ""
+      },
+      {
+        "bannerUrl": "http://www.mall.com/uploads/images/banner/iphone8.png",
+        "goodsId": 3,
+        "jumpUrl": ""
+      }
+    ]
+  }
+}

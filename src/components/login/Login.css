@@ -1,0 +1,38 @@
+.logoLayout{
+    height: 5.5rem;
+    background: url(/src/assets/login/regist_logo.png) no-repeat center 0;
+    background-size:5.5rem 5.5rem;
+    margin-bottom: 3.5rem;
+}
+.loginTabLayout{
+    width: 82%;
+    margin: auto;
+}
+.loginNameIcon{
+    background: url(/src/assets/login/regist_phone.png) no-repeat 0 0;
+    background-size: cover;
+    height: 1.3rem;
+    width: 1.1rem;
+}
+.loginPwdIcon{
+    background: url(/src/assets/login/regist_password.png) no-repeat 0 0;
+    background-size: cover;
+    height: 1.3rem;
+    width: 1.1rem;
+}
+.loginVerifyIcon{
+    background: url(/src/assets/login/regist_code.png) no-repeat 0 0;
+    background-size: cover;
+    height: 1.3rem;
+    width: 1.1rem;
+}
+.verifyCss{
+    float: right;
+    font-size: 14px;
+    height: 1.6rem;
+    width: 6rem;
+    border-radius: 3.5rem;
+    line-height: 1.6rem;
+    margin-top: -2.2rem
+}
+

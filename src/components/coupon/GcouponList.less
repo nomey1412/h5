@@ -1,0 +1,163 @@
+
+:global {
+  .tsd_coupon_list {
+    img {
+      width: 100%;
+    }
+    div.am-card {
+      background: url(/src/assets/coupon/coupon_bg.png) no-repeat center 0;
+      height: 5rem;
+      background-size: 100% 100%;
+    }
+    html:not([data-scale]) .am-card:not(.am-card-full)::before {
+      width: unset;
+      height: unset;
+      border: 0 none !important;
+    }
+    .am-card-header-extra {
+      font-size: 23px;
+      color: #ff5353;
+      padding-right: 0.2rem
+    }
+    .am-card-footer-extra {
+      text-align: right;
+      padding-right: 0.5rem
+    }
+    html:not([data-scale]) .am-card-body::before {
+      background-color: #FFFFFF !important;
+    }
+
+    .am-card-header {
+      padding: 1.4rem 18px 1rem 15px;
+    }
+    .am-card-body {
+      margin-top: 1.4rem;
+      color: #999999;
+      min-height: 20px;
+    }
+    .am-card-header-content {
+      color: #333333;
+      font-size: 18px;
+    }
+    .am-card-footer {
+      color: #999999;
+    }
+    .am-card-header-content, .tsd_coupon_footer .am-card-header-extra {
+      color: #777777;
+    }
+    .textStyle {
+      color: #7F7F7F;
+      text-align: center !important;
+      font-size: 15px;
+      padding-top: 1rem;
+    }
+    .showStyle {
+      width: 18px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+  }
+  .tsd_con_none {
+    .tsd_house {
+      width: 100%;
+      overflow: hidden;
+      margin-top: 120px;
+      text-align: center;
+    }
+    .tsd_house img {
+      width: 40%;
+    }
+  }
+  .tsd_con_Horty {
+    .tsd_yz {
+      div.am-card {
+        background: url(/src/assets/coupon/yz_red.png) no-repeat center 0;
+        height: 7rem;
+        background-size: 100% 100%;
+      }
+      .am-card-body {
+        line-height: 58px;
+      }
+      .am-card-footer {
+        margin-top: 5px;
+      }
+      .am-card-header {
+        padding: 28px 15px 10px 15px;
+      }
+      .am-card-header-content {
+        font-size: 20px;
+      }
+      .am-card-header-extra {
+        font-size: 20px;
+        color: #000;
+      }
+      .am-card-footer-extra {
+        text-align: right;
+      }
+      .am-card-body {
+        color: #999;
+      }
+    }
+    .tsd_yz_red {
+      div.am-card {
+        background: url(/src/assets/coupon/yz.png) no-repeat center 0;
+        height: 7rem;
+        background-size: 100% 100%;
+      }
+      .am-card-body {
+        line-height: 58px;
+      }
+      .am-card-footer {
+        margin-top: 5px;
+      }
+      .am-card-header {
+        padding: 17px 15px;
+      }
+      .am-card-header-content {
+        font-size: 20px;
+      }
+      .am-card-header-extra {
+        font-size: 20px;
+        color: #000;
+      }
+    }
+  }
+  .tsd_house_iconSize {
+    text-align: center;
+    margin: 100px auto;
+    img {
+      width: 40%;
+
+    }
+  }
+  .tsd_yz {
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+      .am-card::before {
+        border: 0 none !important;
+
+      }
+
+      .am-card-body::before {
+        background-color: #fff !important;
+        height: 0px !important;
+
+      }
+    }
+
+  }
+  .tsd_coupon_list {
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+      .am-card::before {
+        border: 0 none !important;
+
+      }
+
+      .am-card-body::before {
+        background-color: #fff !important;
+        height: 0px !important;
+
+      }
+    }
+
+  }
+}

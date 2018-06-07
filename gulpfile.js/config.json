@@ -1,0 +1,12 @@
+{
+  "root": {
+    "dest" : "./dist"
+  },
+  "resource" : "http://local.com",
+  "tasks": {
+    "move":{
+       "src" : "./dist",
+       "dest" : "../admin_clsc/public/static"
+    }
+  }
+}
